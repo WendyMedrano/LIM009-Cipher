@@ -1,1 +1,17 @@
 /* Acá va tu código */
+body {
+background: #D2B4DE;
+font-family: 'Pacifico', cursive;
+font-size: 220%;
+}
+
+#root{
+    width: 80%;
+     height: 80%;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     border-color: #A3E4D7;
+     border-image-slice: 200%;
+     background: #F0F3F4  ;
+}
