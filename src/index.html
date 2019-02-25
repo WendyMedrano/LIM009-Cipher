@@ -7,37 +7,40 @@
   </head>
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <body >
-      <h1>Cuéntalo en secreto</h1>
-     <div id="rootprincipal" >
+    <h1>Cuéntalo en secreto</h1>
+    <div id="rootprincipal">
     <div id="root1">
       <p> ¡En esta página<br>
-               puedes sentirte totalmente <br>
+              puedes sentirte totalmente <br>
               a salvo y segura! <br><br>
               Siente la seguridad en contarle a las <br>personas
               mejor especializadas del país, <br>si algo te incomoda
               o afecta física,<br> psicológica o sexualmente.
-              <p id="confidence">No estás sola.</p> </p>
+      <p id="confidence">No estás sola.</p> </p>
     </div>
-    <div id="root2" >
-      <h3 id=text1 >¿Cómo?</h3>
+    <div id="root2">
+        <h3 id=text1 >¿Cómo?</h3>
         <p> Usando un encriptador de mensajes. <br>
           Donde solo tú <br>sabrás la "clave" para decifrarlo.<br>
           Esta "clave" será un número que escojas <br>
           Puedes enviarlo a autoridades, <br>algún amigx o familiar
           de confianza, <br>ingresando la "clave secreta"
-           <br> y desencriptará el mensaje.
+          <br> y desencriptará el mensaje.
           <br> 
-          <button type="submit" onclick=""> Empecemos</button>
-          
-      </div>
-</div>
+        <button type="submit" onclick="encode()"> Estoy lista</button>
+    </div>
+    </div>
     <div id="encript">
+       <textarea id="inbox" rows="10" cols="50"
+        placeholder="Escribe sin miedo...">
+       </textarea>
+    </div>
+
+
+    <div id="botons" >
       
     </div>
-    <div id="botons" >
-     
-    </div>
         <script src="cipher.js"></script>
-    <script src="index.js"></script>
+        <script src="index.js"></script>
   </body>
 </html>
