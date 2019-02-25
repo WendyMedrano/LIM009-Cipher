@@ -9,36 +9,48 @@
   <body >
     <h1>Cuéntalo en secreto</h1>
     <div id="rootprincipal">
-    <div id="root1">
-      <p> ¡En esta página<br>
-              puedes sentirte totalmente <br>
-              a salvo y segura! <br><br>
-              Siente la seguridad en contarle a las <br>personas
-              mejor especializadas del país, <br>si algo te incomoda
-              o afecta física,<br> psicológica o sexualmente.
-      <p id="confidence">No estás sola.</p> </p>
-    </div>
-    <div id="root2">
-        <h3 id=text1 >¿Cómo?</h3>
-        <p> Usando un encriptador de mensajes. <br>
-          Donde solo tú <br>sabrás la "clave" para decifrarlo.<br>
-          Esta "clave" será un número que escojas <br>
-          Puedes enviarlo a autoridades, <br>algún amigx o familiar
-          de confianza, <br>ingresando la "clave secreta"
-          <br> y desencriptará el mensaje.
-          <br> 
-        <button type="submit" onclick="encode()"> Estoy lista</button>
-    </div>
-    </div>
+          <div id="root1">
+            <p> ¡En esta página<br>
+                    puedes sentirte totalmente <br>
+                    a salvo y segura! <br><br>
+                    Siente la seguridad en contarle a las <br>personas
+                    mejor especializadas del país, <br>si algo te incomoda
+                    o afecta física,<br> psicológica o sexualmente.
+            <p id="confidence">No estás sola.</p> </p>
+          </div>
+          <div id="root2">
+              <h3 id=text1 >¿Cómo?</h3>
+              <p> Usando un encriptador de mensajes. <br>
+               Donde solo tú <br>sabrás la "clave" para decifrarlo.<br>
+                Esta "clave" será un número que escojas <br>
+                Puedes enviarlo a autoridades, <br>algún amigx o familiar
+                de confianza, <br>ingresando la "clave secreta"
+                <br> y desencriptará el mensaje.
+                <br> 
+          </div>
+          <button id="startBtn" type="submit" onclick="encode()"> Estoy lista</button>
+      </div>
     <div id="encript">
-       <textarea id="inbox" rows="10" cols="50"
-        placeholder="Escribe sin miedo...">
-       </textarea>
+        <h2>Escribe eso que tanto callas...</h2>
+              <label > Clave: <input id="offset" type="text" placeholder="Digita un número"> </label>
+              <br>
+              <button id="btnEncode"  > Cifrar</button>
+              <button id="btnDecode" > Decifrar</button>
+
+              <div id="inbox">
+                  <img id= "inboximg" src="http://www.canbum.net/cdn/3/2016/828/old-paper-texture-free_13709.png" alt="">
+                  <textarea id="inboxarea" style="border: none;" rows="10" cols="50"
+                  placeholder="Escribe sin miedo..."></textarea> </textarea>
+                  </textarea>
+              </div>
+              
+              <br>
+        
+   
     </div>
-
-
+    
+     
     <div id="botons" >
-      
     </div>
         <script src="cipher.js"></script>
         <script src="index.js"></script>
