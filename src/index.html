@@ -7,8 +7,9 @@
   </head>
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <body >
-    <h1>Cuéntalo en secreto</h1>
+      <h1>Cuéntalo en secreto</h1>
     <div id="rootprincipal">
+        
           <div id="root1">
             <p> ¡En esta página<br>
                     puedes sentirte totalmente <br>
@@ -28,22 +29,27 @@
                 <br> y desencriptará el mensaje.
                 <br> 
           </div>
-          <button id="startBtn" type="submit" onclick="encode()"> Estoy lista</button>
+          <img  id="startBtn"src="https://bit.ly/2U9q2lh"  width="5%" alt=""> 
+          
       </div>
     <div id="encript">
-        <h2>Escribe eso que tanto callas...</h2>
-              <label > Clave: <input id="offset" type="text" placeholder="Digita un número"> </label>
-              <br>
-              <button id="btnEncode"  > Cifrar</button>
-              <button id="btnDecode" > Decifrar</button>
+        <h2> <strong>Paso 1)</strong>  Escribe eso que tanto callas... <br> <strong>Paso 2)</strong> Escribe una clave en número <br>
+        <strong>Paso 3)</strong> Elige Cifrar o Decifrar</h2>
+              <label > Clave: <input id="offset" type="number" placeholder="Digita un número"> </label>
+              <button id="btnEncode" onclick="encode()"> Cifrar</button>
+              <button id="btnDecode"> Decifrar</button>
 
               <div id="inbox">
-                  <img id= "inboximg" src="http://www.canbum.net/cdn/3/2016/828/old-paper-texture-free_13709.png" alt="">
+                  <img id= "inboximg" src="https://bit.ly/2U9qekv"  >
                   <textarea id="inboxarea" style="border: none;" rows="10" cols="50"
-                  placeholder="Escribe sin miedo..."></textarea> </textarea>
-                  </textarea>
+                  placeholder="Escribe sin miedo..."></textarea>
               </div>
-              
+               <div id="desbox">
+                <img id= "desboximg" src="botellamera.png" width="100%" >
+                <textarea id="desboxarea" style="border: none;"
+                 rows="10" cols="50"  placeholder="Es sencillo desahogarte..."
+                ></textarea> 
+            </div>
               <br>
         
    
