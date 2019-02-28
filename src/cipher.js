@@ -1,8 +1,8 @@
- 
-  window.cipher = {
+
+window.cipher = {
   
   encode: (string,offset) => {
-    /* Codifica para AZ az y space */
+    // Codifica para AZ az y space 
     let desboxing="";
      let valueOffset = parseInt(offset);  
     for(let i = 0; i < string.length; i++) {
@@ -28,22 +28,33 @@ return desboxing;
     
     
      decode: (string,offset) => {
-      /* Codifica para AZ az y space */
+      // Codifica para AZ az y space 
       let desboxing2="";
-       let valueOffset2 = parseInt(offset);  
+
+       let valueOffset2 = parseInt(offset%26);  
       for(let i = 0; i < string.length; i++) {
         //mayusculas
         if(65 <= string.charCodeAt(i) && string.charCodeAt(i)<= 90){
-          let numdecif2 = (string.charCodeAt(i) - 65 - valueOffset2) % 26 + 65; // 70
+          let salto= string.charCodeAt(i) - 65 - valueOffset2;
+          if (salto < 0) {
+            salto = 26 + salto;
+          }
+          let numdecif2 = (salto) + 65;
+
           let palabraCifrada2 = String.fromCharCode(numdecif2);
           desboxing2+=palabraCifrada2;
           }
           //minusculas
        else if(97 <= string.charCodeAt(i) && string.charCodeAt(i)<= 122){
-          let numdecif2 = (string.charCodeAt(i) - 97 - valueOffset2) % 26 + 97; 
+          let salto= string.charCodeAt(i) - 97 - valueOffset2;
+          if (salto < 0) {
+            salto = 26 + salto;
+          }
+          let numdecif2 = (salto) + 97; 
           let palabraCifrada2 = String.fromCharCode(numdecif2);
           desboxing2+=palabraCifrada2;
          }
+         
          //espacio
        else if (string.charCodeAt(i) ===32) {
         desboxing2+=" ";
