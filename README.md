@@ -1,4 +1,24 @@
-# Cifrado César
+# CIFRADO: CUÉNTALO EN SECRETO Y SIN MIEDO
+
+## ¿A quién va dirigido?
+
+A adolescentes de 10 a 17 años, que quieran enviar mensajes de distinto tipo.
+
+###¿Qué tipo de mensajes ?
+
+- Pueden usarlo para contar secretos, miedos a alguna persona de confianza.
+
+- Denuncias de abusos, acoso o problemas de cualquier tipo a instituciones dedicadas a brindar ayuda especializada.
+
+- Transmitir inseguridades de depresión, propios de la edad.
+
+- Cualquier mensaje de todo tipo que libere su mente  y les devuelva la confianza perdida.
+
+##¿Cómo usarlo?
+
+###PASO 1:
+###PASO 2:
+###PASO 3:
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
