@@ -1,19 +1,19 @@
 # CIFRADO: CUÉNTALO EN SECRETO Y SIN MIEDO
 
-##¿Cómo pense en los usuarios?
+## ¿Cómo pense en los usuarios?
 
 Según la última Encuesta Demográfica y de Salud Familiar (ENDES) del Instituto Nacional de Estadística e Informática (INEI), del total de casos de violencia física, sexual y psicológica contra la mujer que se dan en el Perú, solo el 27% son denunciados, este dato pertenece al diario la República. [Leer artículo](https://larepublica.pe/sociedad/1136804-mimp-solo-el-27-de-mujeres-denuncia-ser-victima-de-violencia-video).
 
 Una cifra alarmante que refleja que el silencio puede costar la vida de una persona, de una futura programadora web.
 
-###¿Cuáles son las posibles causas del silencio?
+### ¿Cuáles son las posibles causas del silencio?
 Es probable que sea el miedo, vergüenza por los comentarios de la sociedad o estereotipos que nos hacen creer que las víctimas son las culpables de lo que les sucede.
 
 ## ¿A quién va dirigido?
 
 A adolescentes de 10 a 17 años, que quieran enviar mensajes de distinto tipo.
 
-##¿Qué tipo de mensajes ?
+## ¿Qué tipo de mensajes ?
 
 - Pueden usarlo para contar secretos, miedos a alguna persona de confianza.
 
@@ -23,17 +23,17 @@ A adolescentes de 10 a 17 años, que quieran enviar mensajes de distinto tipo.
 
 - Cualquier mensaje de todo tipo que libere su mente  y les devuelva la confianza perdida.
 
-##¿Cómo usarlo?
+## ¿Cómo usarlo?
 
-###PASO 1:
+### PASO 1:
 
 - Nuestras queridas usuarias ingresan.
 
-###PASO 2:
+### PASO 2:
 
 - Luego ingresan una clave que cifre su mensaje, esta clave solo la sabrán ellas y que compartirán con las personas o instituciones a las que enviará lo que desee contar.
 
-###PASO 3:
+### PASO 3:
 
 - Tienen el mensaje cifrado, que pueden copiarlo y enviarlo a las instituciones que deseen, o pueden compartir el mensaje por whatsapp.
 
