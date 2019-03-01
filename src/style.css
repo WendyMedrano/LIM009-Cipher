@@ -5,21 +5,28 @@ body {
     text-align: center;
     font-size: 190%;
 }
-strong{
-
+  h3{
+    font-family: 'Hind', sans-serif;
     color: rgb(63, 0, 42);
+    font-size: 70%;
 } 
+strong{
+    font-family: 'Hind', sans-serif;
+    color: rgb(17, 115, 122);
+    font-size: 100%;
+}
+#text1{
+    font-family: 'Hind', sans-serif;
+    font-size: 120%;  
+}
+
 #startBtn{
-border-radius: 50em;
-size: 50px;
+    border-radius: 50em;
+    size: 50px;
 }
 h1 {   
     color:rgb(216, 117, 163) ;
-    
-}
-h2{  
-    color:#0B5345;
-    font-size: 75%;
+   
 }
 
 #rootprincipal{
