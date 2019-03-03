@@ -18,5 +18,18 @@
     "mocha": "^5.1.1",
     "nyc": "^13.1.0",
     "opener": "^1.4.3"
-  }
+  },
+  "description": "Según la última Encuesta Demográfica y de Salud Familiar (ENDES) del Instituto Nacional de Estadística e Informática (INEI), del total de casos de violencia física, sexual y psicológica contra la mujer que se dan en el Perú, solo el 27% son denunciados, este dato pertenece al diario la República. [Leer artículo](https://larepublica.pe/sociedad/1136804-mimp-solo-el-27-de-mujeres-denuncia-ser-victima-de-violencia-video).",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WendyMedrano/LIM009-Cipher.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/WendyMedrano/LIM009-Cipher/issues"
+  },
+  "homepage": "https://github.com/WendyMedrano/LIM009-Cipher#readme"
 }

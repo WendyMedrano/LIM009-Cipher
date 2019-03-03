@@ -19,11 +19,11 @@ window.cipher = {
         desboxing+=palabraCifrada;
        }
        //espacio
-     else if (string.charCodeAt(i) ===32) {
+     else if (string.charCodeAt(i) ===32){
       desboxing+=" ";
      }
      }
-return desboxing;
+    return desboxing;
      },
     
     
