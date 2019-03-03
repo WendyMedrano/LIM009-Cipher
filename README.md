@@ -37,8 +37,14 @@ A adolescentes de 10 a 17 años, que quieran enviar mensajes de distinto tipo.
 
 - Tienen el mensaje cifrado, que pueden copiarlo y enviarlo a las instituciones que deseen, o pueden compartir el mensaje por whatsapp.
 
-# Etapa de Prototipado
-![prototipo](prototipo.png)
+# Etapa de Protipado
+ ## Sketching
+En esta etapa, primero se ideó una primera pantalla en la que deberíamos enviar un mensaje que le transmita a nuestra usuaria, esa seguridad, tranquilidad y confianza de escribir todo lo que desee.
+Y se ideó un botón en forma de corazón para darle la sensación que "abrirá su corazón" al contar su historia o mensaje.
+
+![prototipo](https://ibb.co/6sX2nv8 "Sketching de mi futura página web")
+
+  ## Diagrama de flujo
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
