@@ -43,12 +43,12 @@ A adolescentes de 10 a 17 años, que quieran enviar mensajes de distinto tipo.
 En esta etapa, primero se ideó una primera pantalla en la que deberíamos enviar un mensaje que le transmita a nuestra usuaria, esa seguridad, tranquilidad y confianza de escribir todo lo que desee.
 Y se ideó un botón en forma de corazón para darle la sensación que "abrirá su corazón" al contar su historia o mensaje.
 
-[![Sketching ideado en Paint](prototipo.png)](https://ibb.co/6sX2nv8 "Sketching de mi futura página web")
+[![Sketching ideado en Paint](prototipo.png)](https://www.photobox.co.uk/my/photo/full?photo_id=501699403958 "Sketching de mi futura página web")
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
 
-![Sketching ideado en Paint](prototipo.png)
+![sketching ideado en Paint](https://ibb.co/6sX2nv8)
 
   ## Diagrama de flujo
 
