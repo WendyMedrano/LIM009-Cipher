@@ -48,7 +48,7 @@ Y se ideó un botón en forma de corazón para darle la sensación que "abrirá 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
 
-![sketching ideado en Paint](https://ibb.co/6sX2nv8)
+![sketching ideado en Paint](C:\Users\Wendy\Desktop\LIM009-Cipher\src\prototipo.png)
 
   ## Diagrama de flujo
 
