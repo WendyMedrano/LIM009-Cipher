@@ -62,18 +62,26 @@ h1 {
     width: 500px;
      
 }
-
+#desboximg{
+    position: absolute;
+   
+    height: 610px;
+    right: 120px;
+    left: 750px;
+    width: 550px;
+      
+}
 #inbox #inboxarea{
     background: none;
     font: black;
     position: absolute;
-    height: 550px;
+    height: 510px;
     right: 50px;
     left: 70px;
     width: 450px;
     font-family: 'Pacifico', cursive;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 60px;
     font-size: 80%;
    
 }
@@ -82,24 +90,16 @@ h1 {
     background: none;
     font: black;
     position: absolute;
-    height: 550px;
-    right: 60px;
-    left: 900px;
-    width: 400px;
+    height: 500px;
+    right: 90px;
+    left: 830px;
+    width: 350px;
     font-family: 'Pacifico', cursive;
     text-align: center;
     font-size: 80%;
     margin-top: 30px;
 }
-#desboximg{
-    position: absolute;
-   
-    height: 680px;
-    right: 70px;
-    left: 500px;
-    width: 800px;
-      
-}
+
 #offset{
     border-radius: 50em;
     padding: 1%;
