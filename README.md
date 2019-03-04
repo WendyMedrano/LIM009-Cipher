@@ -17,7 +17,7 @@ A adolescentes de 10 a 17 años, que quieran enviar mensajes de distinto tipo.
 
 - Pueden usarlo para contar secretos, miedos a alguna persona de confianza.
 
-- Denuncias de abusos, acoso o problemas de cualquier tipo a instituciones dedicadas a brindar ayuda especializada.
+- Denuncias de abusos, acoso o probgtilemas de cualquier tipo a instituciones dedicadas a brindar ayuda especializada.
 
 - Transmitir inseguridades de depresión, propios de la edad.
 
@@ -43,11 +43,18 @@ A adolescentes de 10 a 17 años, que quieran enviar mensajes de distinto tipo.
 En esta etapa, primero se ideó una primera pantalla en la que deberíamos enviar un mensaje que le transmita a nuestra usuaria, esa seguridad, tranquilidad y confianza de escribir todo lo que desee.
 Y se ideó un botón en forma de corazón para darle la sensación que "abrirá su corazón" al contar su historia o mensaje.
 
-
-
-
 ![prototipo](https://user-images.githubusercontent.com/47748753/53741941-7e1d9e00-3e65-11e9-8bb5-e5a6143abc14.png)
 
+## ¿Cómo funciona?
+
+La primera pantalla: El botón corazón nos envía a la siguiente etapa
+
+![primerpantallazo](https://user-images.githubusercontent.com/47748753/53763891-de2e3780-3e99-11e9-9926-dde1ecf9f68c.PNG)
+
+Segunda pantalla:
+El usuario tiene paso a paso como usar la página:
+
+![segundopantallazo](https://user-images.githubusercontent.com/47748753/53763896-dff7fb00-3e99-11e9-8049-f2771bf952ee.png)
 
   ## Diagrama de flujo
 
