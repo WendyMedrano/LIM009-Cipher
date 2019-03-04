@@ -76,13 +76,14 @@ h1 {
     font: black;
     position: absolute;
     height: 510px;
-    right: 50px;
+    right: 150px;
     left: 70px;
-    width: 450px;
+    width: 380px;
     font-family: 'Pacifico', cursive;
     text-align: center;
     margin-top: 60px;
     font-size: 80%;
+    outline: none;
    
 }
 
@@ -90,14 +91,15 @@ h1 {
     background: none;
     font: black;
     position: absolute;
-    height: 500px;
-    right: 90px;
-    left: 830px;
-    width: 350px;
+    height: 510px;
+    right: 20px;
+    left: 930px;
+    width: 320px;
     font-family: 'Pacifico', cursive;
     text-align: center;
     font-size: 80%;
     margin-top: 30px;
+    outline: none;
 }
 
 #offset{

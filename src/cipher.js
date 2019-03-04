@@ -18,8 +18,13 @@ window.cipher = {
         let palabraCifrada = String.fromCharCode(numdecif);
         desboxing+=palabraCifrada;
        }
+       //enter
+       else if (string.charCodeAt(i) ===10) {
+        desboxing+=String.fromCharCode(10);
+            }
        //espacio
-     else if (string.charCodeAt(i) ===32){
+     else{
+      string.charCodeAt(i) ===32;
       desboxing+=" ";
      }
      }
@@ -54,12 +59,18 @@ window.cipher = {
           let palabraCifrada2 = String.fromCharCode(numdecif2);
           desboxing2+=palabraCifrada2;
          }
-         
+         //enter
+         else if (string.charCodeAt(i) ===10) {
+          desboxing2+=String.fromCharCode(10);
+              }
          //espacio
-       else if (string.charCodeAt(i) ===32) {
+       else {string.charCodeAt(i) ===32;
         desboxing2+=" ";
        }
        }
+      
+        
+
   return desboxing2;
   }
       }

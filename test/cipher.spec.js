@@ -16,6 +16,12 @@ describe('cipher', () => {
     it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33',()=>{
       assert.equal(cipher.encode("abcdefghijklmnopqrstuvwxyz",33),"hijklmnopqrstuvwxyzabcdefg");
     });
+    it('debería retornar "b c" para "a b" con un offset de 1, esto probara el espacio',()=>{
+      assert.equal(cipher.encode("a b",1),"b c"); 
+    });
+    it('debería retornar "b\nc" cuando se teclea "a\nb" con un offset de 1, esto probara el espacio',()=>{
+      assert.equal(cipher.encode("a\nb",1),"b\nc"); 
+    });
   });
 
   describe('cipher.decode', () => {
@@ -29,6 +35,12 @@ describe('cipher', () => {
     });
     it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offset 33',()=>{
       assert.equal(cipher.decode("hijklmnopqrstuvwxyzabcdefg",33),"abcdefghijklmnopqrstuvwxyz");
+    });
+    it('debería retornar "z a" para "a b" con un offset de 1, esto probara el espacio',()=>{
+      assert.equal(cipher.decode("a b",1),"z a"); 
+    });
+    it('debería retornar "z\na" cuando se teclea "a\nb" con un offset de 1, esto probara el espacio',()=>{
+      assert.equal(cipher.decode("a\nb",1),"z\na"); 
     });
   });
 
