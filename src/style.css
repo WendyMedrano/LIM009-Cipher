@@ -5,7 +5,7 @@ body {
     text-align: center;
     font-size: 190%;
 }
-  h3{
+h3{
     font-family: 'Hind', sans-serif;
     color: rgb(63, 0, 42);
     font-size: 70%;
@@ -55,8 +55,8 @@ h1 {
  
 #inboximg{
     position: absolute;
-    z-index: 200px;
-    height: 680px;
+   
+    height: 630px;
     right: 20px;
     left: 20px;
     width: 500px;
@@ -93,12 +93,16 @@ h1 {
 }
 #desboximg{
     position: absolute;
-    z-index: 200px;
-    height: 750px;
+   
+    height: 680px;
     right: 70px;
     left: 500px;
     width: 800px;
       
+}
+#offset{
+    border-radius: 50em;
+    padding: 1%;
 }
 
 #btnEncode, #btnDecode{

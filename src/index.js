@@ -1,11 +1,15 @@
+
+
 /* Acá va tu código */
 window.onload = () => {
-document.getElementById("encript").style.display="none";
-}
+document.getElementById("encript").style.display="none";}
+
 document.getElementById("startBtn").addEventListener("click", () => {
 document.getElementById("rootprincipal").style.display ="none";
 document.getElementById("encript").style.display="block";
 })
+
+
 //Vammo a encriptar
 let btnEncode = document.getElementById("btnEncode");
 btnEncode.addEventListener("click",encode);
@@ -31,4 +35,12 @@ function decode(){
         document.getElementById("desboxarea").style.display ="block";
         document.getElementById("desboxarea").innerHTML=desboxing2;   
 
+    }
+    //Vamo a borrar
+    let btnBorrado = document.getElementById("btnBorrado");
+    btnBorrado.addEventListener("click",limpiar);
+
+     function limpiar (){
+        document.getElementById("inboxarea").value = " ";
+        document.getElementById("desboxarea").value = " ";
     }
