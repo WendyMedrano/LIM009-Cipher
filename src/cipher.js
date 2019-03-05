@@ -35,7 +35,8 @@ window.cipher = {
      decode: (string,offset) => {
       // Codifica para AZ az y space 
       let desboxing2="";
-
+        //negativos
+        
        let valueOffset2 = parseInt(offset%26);  
       for(let i = 0; i < string.length; i++) {
         //mayusculas
@@ -49,6 +50,8 @@ window.cipher = {
           let palabraCifrada2 = String.fromCharCode(numdecif2);
           desboxing2+=palabraCifrada2;
           }
+          
+          
           //minusculas
        else if(97 <= string.charCodeAt(i) && string.charCodeAt(i)<= 122){
           let salto= string.charCodeAt(i) - 97 - valueOffset2;

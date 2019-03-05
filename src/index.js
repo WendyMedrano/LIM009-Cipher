@@ -42,5 +42,5 @@ function decode(){
 
      function limpiar (){
         document.getElementById("inboxarea").value = " ";
-        document.getElementById("desboxarea").value = " ";
+        document.getElementById("desboxarea").innerHTML = " ";
     }
